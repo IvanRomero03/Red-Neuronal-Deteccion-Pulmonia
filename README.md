@@ -6,7 +6,7 @@ Proyecto creado por: Avril Ruiz, Daniel Salinas, Felipe Félix, Iván Romero
 # Modo de uso:
 - Requerimientos: 
 - - Contar con pytohn instalado
-- - - Contar con las librerias requeridas (matplotlib, numpy, tensorflow, sklearn)
+- - - Contar con las librerias requeridas (matplotlib, numpy, tensorflow, sklearn, cv2)
 - - Contar con una llave de kaggle, en modo kaggle.json 
 - - - Para obtener dicho archivo recomendado seguir los siguientes pasos: https://www.analyticsvidhya.com/blog/2021/06/how-to-load-kaggle-datasets-directly-into-google-colab/
 - - Pasos para correr el modelo en un programa aislado
