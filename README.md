@@ -17,7 +17,9 @@ Proyecto creado por: Avril Ruiz, Daniel Salinas, Felipe Félix, Iván Romero
 - - - .predict(Imagen) te devuelve un valor entre 0 y 1 que es la estimacion del modelo, le pones la funcion redondeo y es la prediccion de la imagen que insertaste
 - - - .fit(Imagen, label) es la funcion de entrenamiento donde metes un una imagen o un conjunto de imagenes y sus labeles para entrenar el modelo 
 - - - .history que devuelve el historial de entrenamiento de la red neuronal 
-
+# Para usar la función de predicción con una imagen:
+- Nombrar la imagen que se desea analizar como "imagen.jpeg", es necesario asegurarse que no existan dos de estas imágenes, en este repocitorio se incluye una por defecto
+- ejecutar el archivo "ejecutable.bat"
 # Ejemplo de predicciones de la red
 
 ![ValidationSetPrueba](https://user-images.githubusercontent.com/65189646/141486279-9ff936b6-57c1-4e2f-81a3-9a95883ceb74.jpg)
