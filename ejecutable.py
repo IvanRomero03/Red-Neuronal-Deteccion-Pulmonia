@@ -16,7 +16,7 @@ import tensorflow.keras as ks
 import cv2
 import os
 
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+#os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 Modelo = tf.keras.models.load_model('modelo.h5')
 
 # Leer una imagen y convertirla a una matriz
