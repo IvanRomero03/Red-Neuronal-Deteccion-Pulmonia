@@ -9,7 +9,14 @@ Proyecto creado por: Avril Ruiz, Daniel Salinas, Felipe Félix, Iván Romero
 - - - Contar con las librerias requeridas (matplotlib, numpy, tensorflow, sklearn)
 - - Contar con una llave de kaggle, en modo kaggle.json 
 - - - Para obtener dicho archivo recomendado seguir los siguientes pasos: https://www.analyticsvidhya.com/blog/2021/06/how-to-load-kaggle-datasets-directly-into-google-colab/
-- TODO decir q archivo abrir y como correr
+- - Pasos para correr el modelo en un programa aislado
+- - - Subir o alocar el documento en la misma carpeta donde se ubica el archivo 
+- - - Usar la funcion de tensorflow tf.keras.load_load('model.h5') en un objeto que es devuelto en forma de un modelo de ren neuronal ejecutable 
+- - El modelo ejecutable tiene las funciones miembro:
+- - - .evaluate(Imagens,Labels) devuelve 2 valores. La perdida total de esa prueba y la precision del modelo ante el conjunto de datos.
+- - - .predict(Imagen) te devuelve un valor entre 0 y 1 que es la estimacion del modelo, le pones la funcion redondeo y es la prediccion de la imagen que insertaste
+- - - .fit(Imagen, label) es la funcion de entrenamiento donde metes un una imagen o un conjunto de imagenes y sus labeles para entrenar el modelo 
+- - - .history que devuelve el historial de entrenamiento de la red neuronal 
 
 
 
