@@ -14,7 +14,7 @@ import tensorflow as tf
 import tensorflow.keras as ks
 import cv2
 import os
-
+#Descargamos el modelo con tensorflow
 Modelo = tf.keras.models.load_model('modelo.h5')
 
 ! cp kaggle.json ~/.kaggle/
