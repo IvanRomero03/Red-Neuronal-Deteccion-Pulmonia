@@ -1,5 +1,5 @@
 # Red-Neuronal-Deteccion-Pulmonia
-Proyecto creado por: Avril Ruiz, Daniel Salinas, Felipe Félix, Iván Romero
+Proyecto creado por: Avril Ruiz, Daniel Salinas, Felipe Félix, Iván Romero \n
 10k Challenge 2021
 
 # Modo de uso:
