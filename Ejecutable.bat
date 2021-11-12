@@ -1,2 +1,4 @@
 @echo off
-Ejecutable.py
+Python Ejecutable.py
+timeout 1
+exit
