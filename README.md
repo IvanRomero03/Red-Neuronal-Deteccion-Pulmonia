@@ -18,6 +18,6 @@ Proyecto creado por: Avril Ruiz, Daniel Salinas, Felipe Félix, Iván Romero
 - - - .fit(Imagen, label) es la funcion de entrenamiento donde metes un una imagen o un conjunto de imagenes y sus labeles para entrenar el modelo 
 - - - .history que devuelve el historial de entrenamiento de la red neuronal 
 
-
+# Ejemplo de predicciones de la red
 
 ![ValidationSetPrueba](https://user-images.githubusercontent.com/65189646/141486279-9ff936b6-57c1-4e2f-81a3-9a95883ceb74.jpg)
