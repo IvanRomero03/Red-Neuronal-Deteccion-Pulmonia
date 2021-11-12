@@ -42,6 +42,7 @@ def iterar_imagenes(ruta):
                 lista.append(os.path.join(root, file))
     return lista
 def leerImagenes():
+    #Se pone a leer el path donde estan los datos
     rutaTrainNormal = "/content/chest_xray/train/NORMAL"
     rutaTrainPulmonia = "/content/chest_xray/train/PNEUMONIA"
     rutaTestNormal = "/content/chest_xray/test/NORMAL"
@@ -86,7 +87,7 @@ Imagenes = leerImagenes()
 listaImagenes, Valores = Imagenes
 listaImagenes = np.array(listaImagenes)
 Valores = np.array(Valores)
-
+#inmprime lla cantidad de instancias de imagenes dentro
 print(len(listaImagenes))
 
 #Contar las veces en q se equivoca la cosa esta y almacenarlas
@@ -123,6 +124,6 @@ with open('Registros.csv', 'a') as f:
 
     for Row in filas:
       writer.writerow(Row)
-
+#Permite evaluar el modelo con su calificacion respectiva y la funcion de perdida final en la lista de imagenes con sus valores respectivos
 Modelo.evaluate(listaImagenes, Valores)
 
